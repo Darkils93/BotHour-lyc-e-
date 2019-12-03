@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const Client = new Discord.Client();
 Client.commands = new Discord.Collection();
 const fs = require('fs');
-Client.login('NjQ0MTYwMjA0OTcxMTgwMDMy.Xcv_Yg.kjQz78CwZfCJDh6PmWE6jlmRKZc')
+Client.login(process.env.TOKEN)
 
 var prefix = ("ph!");
 
